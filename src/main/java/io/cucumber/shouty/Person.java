@@ -21,7 +21,7 @@ public class Person<T>{
         messages.add(message);
     }
 
-    public void heard(String messageFromSean) {
+    public void heard(T messageFromSean) {
         System.out.println(messageFromSean);
     }
 }
