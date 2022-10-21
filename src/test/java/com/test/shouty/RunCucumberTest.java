@@ -10,8 +10,8 @@ import static io.cucumber.junit.platform.engine.Constants.PLUGIN_PROPERTY_NAME;
 
 @Suite
 @IncludeEngines("cucumber")
-@SelectClasspathResource("io/cucumber/shouty")
+@SelectClasspathResource("com/test/shouty")
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "pretty")
-@ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "io.cucumber.shouty")
+@ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "com.test.shouty")
 public class RunCucumberTest {
 }

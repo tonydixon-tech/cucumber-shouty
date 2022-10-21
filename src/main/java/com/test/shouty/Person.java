@@ -17,8 +17,8 @@ public class Person<T>{
         return (List<T>) this.messages;
     }
 
-    public void hears(final String message) {
-        messages.add((T) message);
+    public void hears(final T message) {
+        messages.add(message);
     }
 
     public void heard(String messageFromSean) {
