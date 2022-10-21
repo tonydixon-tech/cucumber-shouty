@@ -5,11 +5,11 @@ import java.util.List;
 
 public class Person<T>{
     private List<T> messages = new ArrayList<>();
-    public void moveTo(Integer distance) {
+    public void moveTo(final Integer distance) {
         System.out.format("distance is %d metres.\n", distance);
     }
 
-    public void shout(T message) {
+    public void shout(final T message) {
         System.out.println(message);
     }
 
@@ -21,7 +21,7 @@ public class Person<T>{
         messages.add(message);
     }
 
-    public void heard(T messageFromSean) {
+    public void heard(final T messageFromSean) {
         System.out.println(messageFromSean);
     }
 }
