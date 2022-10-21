@@ -1,4 +1,4 @@
-package com.test.shouty;
+package io.cucumber.shouty;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
